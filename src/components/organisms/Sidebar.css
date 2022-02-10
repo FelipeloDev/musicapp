@@ -1,0 +1,25 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.2;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    min-width: 15rem;
+    height: 100vh;
+    color: white;
+    background-color: #040404;
+  }
+  
+  .sidebar__title {
+    margin-left: 0.6rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+  }
+  
+  .sidebar__logo {
+    margin-right: auto;
+    object-fit: contain;
+    height: 4.5rem;
+    padding: 0.6rem;
+  }
+  

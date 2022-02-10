@@ -1,4 +1,4 @@
-.body {
+.body__container {
     display: flex;
     flex-direction: column;
   }

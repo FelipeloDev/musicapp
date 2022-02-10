@@ -1,0 +1,65 @@
+.musicPlayer {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    padding: 1.25rem;
+    height: 4rem;
+    width: 97%;
+    background-color: #282828;
+  }
+  
+  .musicPlayer__right * .MuiSlider-root {
+    color: green;
+  }
+  .musicPlayer__left {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 19rem;
+    flex: 0.3;
+  }
+  
+  .musicPlayer__green {
+    color: #1ed15e;
+  }
+  
+  .musicPlayer__center {
+    flex: 0.4;
+    max-width: 19rem;
+    padding: 0 6rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .musicPlayer__icon:hover,
+  .musicPlayer__green:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+  }
+  
+  .musicPlayer__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex: 0.3;
+  }
+  
+  .musicPlayer__albumLogo {
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1.25rem;
+    object-fit: contain;
+  }
+  
+  .musicPlayer__songInfo > h4 {
+    margin-bottom: 0.3rem;
+  }
+  
+  .musicPlayer__songInfo > p {
+    font-size: 1rem;
+  }
+  

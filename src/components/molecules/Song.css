@@ -1,0 +1,34 @@
+.song {
+    margin-left: 1.25rem;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    color: white;
+  }
+  
+  .song:hover {
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+  }
+  
+  .song__info {
+    margin-left: 1.25rem;
+  }
+  
+  .song__info > h1 {
+    font-size: 1rem;
+  }
+  
+  .song__info > p {
+    font-size: 0.8rem;
+    margin-top: 3px;
+    color: gray;
+  }
+  
+  .song__album {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+  
