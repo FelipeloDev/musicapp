@@ -1,9 +1,16 @@
 import React from 'react'
+import Sidebar from '../organisms/Sidebar';
 import './Home.css';
 
-function Home() {
+
+function Home({spotify}) {
   return (
-    <div>Home</div>
+    <div className='body'>
+        <div className="player">
+            <Sidebar/>
+        </div>
+
+    </div>
   )
 }
 
